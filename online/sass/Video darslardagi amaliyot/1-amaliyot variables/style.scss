@@ -1,0 +1,16 @@
+.nav {
+    background-color: blue;
+    ul {
+        background-color: green;
+        li {
+            background-color: red;
+            &:hover {
+                background-color: blueviolet;
+            }
+        }
+    }
+    &:hover {
+        background-color: gray;
+    }
+}
+

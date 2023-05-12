@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* h1:nth-of-type(4) {
+    color:blue;
+}
+
+h3:nth-child(5) {
+    color: red;
+} */
+
+/* h1:first-child {
+    color: red;
+}
+
+h1:first-of-type {
+    color: blue;
+} */
+
+/* h1:last-child {
+    color: red;
+}
+
+h1:last-of-type {
+    color: blue;
+} */
+
+/* h1:nth-child(odd) {
+    color: red;
+}
+
+h1:nth-child(even) {
+    color: yellow;
+}
+
+h1:nth-child(4n) {
+    color: blue;
+} */
+
+#box {
+    background-color: green;
+}
+
+h1 {
+    color: yellow;
+}
+
+.card {
+    background-color: gray;
+    margin: 30px;
+}
+
+/* #box h1 {
+    color: blue;
+    width: 300px;
+}
+
+#box > h1 {
+    background-color: red;
+}
+
+#box + h1 {
+    background-color: yellow;
+    color: gray;
+}
+
+#box ~ h1 {
+    background-color: pink;
+} */
+
+input {
+    background-color: red;
+}
+
+input[type="text"] {
+    background-color: blue;
+}
+
+input[placeholder="Email"] {
+    background-color: gray;
+}

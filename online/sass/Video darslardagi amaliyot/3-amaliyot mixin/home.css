@@ -1,0 +1,23 @@
+.send {
+  border-radius: 50px;
+  padding: 10px 30px;
+  border: none;
+  background-color: green;
+  color: blue;
+}
+
+.buy {
+  border-radius: 50px;
+  padding: 5px 55px;
+  border: none;
+  background-color: lightblue;
+  color: blue;
+}
+
+.delete {
+  border-radius: 50px;
+  padding: 5px 55px;
+  border: none;
+  background-color: red;
+  color: green;
+}/*# sourceMappingURL=home.css.map */

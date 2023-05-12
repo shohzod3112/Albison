@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* list-style: none; */
+    /* text-decoration: none; */
+}
+
+.navbar {
+    background-color: rgb(182, 215, 228);
+    /* display: inline-block; */
+    position: fixed;
+    width: 100%;
+    color: red;
+    height: 80px;
+    padding-top: 15px;
+    border-bottom: 3px double green;
+}
+
+.navbar h1 {
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.navbar ul {
+    display: inline-block;
+    /* position: absolute; */
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: red;
+
+}
+
+/* Navbar end */
+
+.main_section {
+    background-color: yellow;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.main_section h1:nth-of-type(1) {
+    background-color: aqua;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 900;
+    word-spacing: 20px;
+    text-shadow: 2px 4px gray;
+}
+
+.main_section h1:nth-of-type(2) {
+    background-color: aqua;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 900;
+    word-spacing: 20px;
+    text-shadow: 2px 3px 2px red, 6px 7px 2px yellow;
+}
+
+.main_section h1:nth-of-type(3) {
+    background-color: aqua;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 900;
+    word-spacing: 20px;
+    text-shadow: 2px 4px gray;
+}
+
+.main_section h1:nth-of-type(4) {
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 900;
+    word-spacing: 20px;
+    text-shadow: 2px 3px black, 4px 6px white;
+}
+
+/* .main_section end */
+
+.cubics {
+    background-color: rgb(40, 19, 23);
+    position: relative;
+    top: 100px;
+    /* margin: 200px; */
+    width: 90%;
+}
+
+.cubic1 {
+    background-color: blue;
+    position: absolute;
+    /* display: inline-block; */
+    top: 160px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}

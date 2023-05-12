@@ -1,0 +1,22 @@
+h1 {
+    background-color: red;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 10px;
+    text-decoration: line-through dotted;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+     /* letter-spacing: 10px; */
+     line-height: 30px;
+     word-spacing: 20px;
+     font-weight: 900;
+     text-transform: uppercase;
+     font-family: 'Noto Nastaliq Urdu', serif;
+     text-align: justify;
+     text-decoration: underline wavy;
+}

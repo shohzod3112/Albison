@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: lightblue;
+    border: 3px solid red;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    animation-name: aylan;
+    animation-duration: 3s;
+/*  animation-iteration-count: 4; -> animatsiya nechchi marta takrorlanishini bildiradi 
+    cheksiz aylanishi uchun infinite qiymatini berish kerak*/
+    animation-iteration-count: 3;
+    /* animation-fill-mode: -> animatsiya bajarilgandan keyin yoki oldin nima bajarilishini belgilab beradi. Qiymatlari: 1. forwards-animatsiyani tugagan holatiga olib borib qo'yadi. 2. backwards-animatsiya tugaganidan keyin yana o'zini holatiga olib borib qo'yadi; 3. both- */
+    /* animation-fill-mode: both; */
+    /* animation-direction: alternate; -> animatsiya qaysi yo'nalishda harakatlanishini bildiradi. Qiymatari: normal(default), reverse-teskari harakatlantirish uchun, alternate -> Birinchi oldinga keyin orqaga harakatlantiradi, alternate-reverse -> Birinchi orqaga keyin oldinga harakatlantiradi */
+    animation-direction: alternate;
+    /* animation-timing-function: -> animatsiya belgilangan vaqt ichida qanday tezlik bilan bajarilishini belgilab beradi. Qimatlari: ease(default)->sekin boshlanadi, tezlashadi va sekin tugaydi. linear->boshidan oxirigacha bir xil tezlikda harakatlanadi. ease-in->sekin boshlanadi va keyin oxirigacha bir xil tezlikda harakatlanadi. ease-out->Tez boshlanadi, tez harakatlanadi va sekin tugaydi. ease-in-out->sekin boshlanadi va sekin tugaydi. cubic-bezier(n,n,n,n) -> Berilgan qiymat bo'yicha harakatlanadi */
+    animation-timing-function: ease-in;
+    /* animation-delay -> animatsiya qancha kutib turishini bildiradi */
+    animation-delay: 2s;
+} 
+
+/* @keyframes aylan {
+    from {
+        transform: rotate(0);
+        background-color: red;
+        border-radius: 50%;
+    }
+    to {
+        transform: rotate(360deg);
+        background-color: green;
+    }
+} */
+
+span {
+    animation-name: aylan;
+    background-color: red;
+    animation-duration: 4s;
+}
+
+/* @keyframes aylan {
+    10% {
+        background-color: gray;
+    }
+    40% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: green;
+        box-shadow: 0 0 5px 15px red;
+    }
+    100% {
+        background-color: blue;
+    }
+} */
+
+@keyframes aylan {
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+        border-radius: 40%;
+        transform: scale(1.4);
+    }
+}

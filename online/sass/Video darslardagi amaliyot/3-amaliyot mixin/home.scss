@@ -1,0 +1,19 @@
+@mixin myBtn($bg, $c, $px: 5px, $py: 55px) {
+    border-radius: 50px;
+    padding: $px $py;
+    border: none;
+    background-color: $bg;
+    color: $c;
+}
+
+.send {
+    @include myBtn(green, blue, 10px, 30px);
+}
+
+.buy {
+    @include myBtn(lightblue, blue);
+}
+
+.delete {
+    @include myBtn(red, green);
+}

@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 99vw;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(80,78,76), rgb(62,43,25));
+    position: fixed;
+    z-index: 1;
+}
+
+nav {
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+
+.logo h1 a{
+    font-size: 35px;
+    color: rgb(217, 193, 163);
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+    font-family: 'Alexandria', sans-serif;
+}
+
+nav ul {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    list-style: none
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 20px;
+    color: rgb(160, 160, 160);
+}
+
+nav button {
+    position: absolute;
+    background-color: inherit;
+    right: 80px;
+    top: 20px;
+    width: 130px;
+    height: 30px;
+    color: rgb(213, 135, 64);
+    border: 2px solid rgb(213, 135, 64);
+    border-color: rgb(213, 135, 64);
+    font-size: 18px;
+    font-family: serif;
+}
+/* Header section end */
+
+.showcase {
+    /* background-color: yellowgreen; */
+    position: relative;
+    top: 70px;
+    display: inline-block;
+    width: 99vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(62, 62, 73, 0.51), rgba(101, 103, 106, 0.676), rgba(90, 87, 87, 0.43)), url('../media/fon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase h2 {
+    position: absolute;
+    font-size: 60px;
+    left: 50px;
+    top: 300px;
+}
+
+.showcase h1 {
+    position: absolute;
+    font-size: 70px;
+    left: 50px;
+    top: 370px;
+}
+
+.showcase p {
+    position: absolute;
+    /* background-color: #fff; */
+    /* display: inline-block; */
+    top: 460px;
+    left: 50px;
+    right: 700px;
+    color: rgb(55, 78, 79);
+}
+
+/* showcase end */
+
+.cards {
+    background-image: linear-gradient(to right, rgb(160, 156, 155), rgb(152, 127, 126));
+    position: relative;
+    width: 99vw;
+    height: 100vh;
+    /* top: 300px; */
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+.cards .card {
+    background-color: rgb(251, 229, 199);
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    top: 50px;
+    left: 40px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    /* vertical-align: middle; */
+    /* display: inline-block; */
+}
+
+.cards .card .rasm {
+    background-color: #fff;
+    background-image: url('../media/image2.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 45%;
+    display: inline-block;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+}
+
+.cards .card .text {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: inline-block;
+    top: 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.cards .card .text h2 {
+    margin-top: 25px;
+    font-size: 30px;
+    color: rgb(66, 8, 4);
+}
+
+.cards .card .text p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(98, 34, 32);
+}
+
+.cards .card .text .read {
+    background-color: rgb(233, 233, 236);
+    width: 170px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    top: 18px;
+    left: 100px;
+}
+
+.cards .card .text .read button {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.cards .boshqa {
+    left: 490px;
+}
+
+.cards .boshqa .rasm {
+    background-image: url('../media/image3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 45%;
+    display: inline-block;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+}
+
+.cards .boshqa .rasm .tepa {
+    width: 170px;
+    height: 60px;
+    background-color: rgb(86, 12, 6);
+    border-radius: 20px 0;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding: 20px 30px;
+}
+
+.cards .boshqa .text .read button{
+    background-color: rgb(86, 12, 6);
+    color: white;
+}
+
+.cards .oxirgi {
+    left: 940px;
+}
+
+/* cards section end */
+
+/* card-3 */
+
+.card-3 {
+    background-image: linear-gradient( to top left, rgba(92, 89, 89, 0.527), rgba(128, 128, 128, 0.589) ), url('../media/image5.png');
+    width: 99vw;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* .middle-section */
+
+.middle-section {
+    background-color: #c0b3a6b8;
+    border-radius: 10px;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+}
+/* form */
+
+.form {
+    padding-top: 50px;    
+}
+
+.form input {
+   background-color: inherit;
+   width: 480px;
+   height: 30px;
+   display: inline-block;
+   border: 1px solid;
+   padding: 0 20px;
+  
+}
+
+
+.form .nam {
+    margin-left: 70px;
+}
+
+.form .tex {
+    margin-left: 30px;
+}
+
+.form .number {
+    margin-left: 70px;
+}
+
+.form .nanber {
+    margin-left: 30px;
+}
+
+.form .area {
+    margin-left: 70px;
+    background-color: inherit;
+    padding: 10px 20px;
+}
+/* button */
+
+.sumbit {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+.sumbit button {
+    width: 400px;
+    padding: 10px;
+    background-color: #8282F7;
+    font-size: 18px;
+    border: 1px solid ;
+    border-radius: 5px;
+    color: #3F2D42;
+    margin-top: 50px;
+
+}
+
+.reset {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.reset button {
+    width: 400px;
+    padding: 10px;
+    background-color: #8282F7;
+    font-size: 18px;
+    border: 1px solid ;
+    border-radius: 5px;
+    color: #3F2D42;
+}
+
+.said {
+    position: relative;
+    width: 99vw;
+    height: 250px;
+    background-image: linear-gradient(to right, rgba(92, 89, 89, 0.525), rgba(128, 128, 128, 0.504)), url('../media/fon.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 70px;
+    text-shadow: 2px 2px 5px white;
+}
+
+.said h2 {
+    font-size: 30px;
+}
+
+.said p {
+    padding: 30px 110px;
+    font-size: 20px;
+}
+
+/* Footer section start */
+
+footer {
+    width: 99vw;
+    height: 250px;
+    background-color: #000;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 270px;
+}
+
+footer .flogo {
+    position: absolute;
+    display: inline-block;
+    /* background-color: blue; */
+    width: 23%;
+    height: 150px;
+    top: 50px;
+    /* padding-bottom: 30px; */
+    /* padding-left: 70px; */
+    left: 70px;
+}
+
+footer .flogo h1 {
+    display: inline-block;
+}
+
+footer .flogo h1 a{
+    font-size: 35px;
+    color: rgb(128, 128, 38);
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+    font-family: 'Alexandria', sans-serif;
+}
+
+footer .fb1 {
+    width: 350px;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer .fb1 ul li a {
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: rgb(160, 160, 160);
+}
+
+footer .fb2 {
+    width: 350px;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer .fb2 ul li a {
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: rgb(160, 160, 160);
+}
+
+footer .fb3 {
+    width: 350px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer .fb3 ul li a {
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: rgb(160, 160, 160);
+}

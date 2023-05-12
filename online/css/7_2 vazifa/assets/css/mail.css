@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:;
+}
+
+.bakend {
+    width: 100%;
+    height: 1900px;
+    background-image: linear-gradient(to top right, #FE5E5E, #E7B8B8);
+    position: relative;
+}
+
+header {
+    /* background-color: aqua; */
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to right bottom, blue, aqua, blue);
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+
+.teslalogo {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    background-image: url('../media/Tesla_Motors.svg.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navul {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+.navul ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.navul ul li a{
+    color: red;
+    font-size: 20px;
+}
+
+/* Navbar end */
+
+.cards {
+    background-color: #090505;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    /* display: inline-block; */
+}
+
+.card1 {
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    position: absolute;
+    width: 370px;
+    height: 880px;
+    top: 100px;
+    left: 220px;
+}
+
+.card1 .image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-image: url('../media/modes\ S.avif');
+    background-size: cover;
+}
+
+.card1 .tekst {
+    width: 100%;
+    height: 50%;
+    background-color: #594242;
+    position: relative;
+    color: #BDB76B;
+    padding: 20px;
+    text-align: center;
+}
+
+.card1 .tekst h3 {
+    padding: 10px;
+}
+
+.card1 .tekst h3:nth-of-type(2) {
+    text-align: left;
+    padding-left: 0;
+}
+
+.card1 .tekst select {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: black;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 125px;
+}
+
+.card1 .tekst button {
+    width: 200px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    margin-left: 65px;
+}
+
+/* card1 end */
+
+.card2 {
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    position: absolute;
+    width: 370px;
+    height: 910px;
+    top: 100px;
+    left: 670px;
+}
+
+.card2 .image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-image: url('../media/model\ S\ roof.avif');
+    background-size: cover;
+}
+
+.card2 .tekst {
+    width: 100%;
+    height: 50%;
+    background-color: #594242;
+    position: relative;
+    color: #BDB76B;
+    padding: 20px;
+    text-align: center;
+}
+
+.card2 .tekst h3 {
+    padding: 10px;
+}
+
+.card2 .tekst h3:nth-of-type(2) {
+    text-align: left;
+    padding-left: 0;
+}
+
+.card2 .tekst select {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: black;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 125px;
+}
+
+.card2 .tekst button {
+    width: 200px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    margin-left: 65px;
+}
+
+/* card2 end */
+
+.card3 {
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    top: 1050px;
+    left: 500px;
+}
+
+.card3 .image {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-image: url('../media/model\ X.avif');
+    background-size: cover;
+}
+
+.card3 .tekst {
+    width: 100%;
+    height: 50%;
+    background-color: #594242;
+    position: relative;
+    color: #BDB76B;
+    padding: 20px;
+    text-align: center;
+}
+
+.card3 .tekst h3 {
+    padding: 10px;
+}
+
+.card3 .tekst h3:nth-of-type(2) {
+    text-align: left;
+    padding-left: 0;
+}
+
+.card3 .tekst select {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: black;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 125px;
+}
+
+.card3 .tekst button {
+    width: 200px;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background-color: #A0A0A1;
+    margin-left: 65px;
+}

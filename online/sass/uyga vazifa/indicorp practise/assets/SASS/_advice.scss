@@ -1,0 +1,32 @@
+#advice{
+    width: 100%;
+    padding: 20px 0;
+    .advice-cards{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        .advice-card{
+            width: 230px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            .card-title{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+            }
+            &:hover{
+                box-shadow: 0 0 5px 2px rgba(87, 86, 86, 0.2);
+            }
+        }
+        @media(max-width:1230px){
+            justify-content: center;
+            gap: 30px;  
+        }
+    }
+}

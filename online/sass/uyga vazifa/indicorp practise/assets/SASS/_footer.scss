@@ -1,0 +1,19 @@
+/* footer section */ 
+@import "./variable";
+#footer{
+    background-color:$footerColor;
+    margin-top: 20px;
+    .footer-main{
+        display: flex;
+        gap: 80px;
+        padding: 50px 0;
+        ul li{
+            margin-top: 10px;
+            color: #fff;
+            cursor: pointer;
+            &:hover{
+                color: $secondaryTextColor;
+            }
+        }
+    }
+}

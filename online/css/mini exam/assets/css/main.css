@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Motiva Sans Bold", serif;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    font-size: 0;
+    margin-top: 40px;
+}
+header nav .navleft {
+    font-size: 10px;
+    width: 50%;
+    display: inline-block;
+    padding: 30px 0px;
+    background-image: url('../media/logotype.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header nav .navleft a {
+    padding: 0 50px;
+    background-color: violet;
+    display: inline-block;
+}
+
+header nav ul{
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+}
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    padding: 0 20px;
+    color: rgb(27, 4, 79);
+}
+
+/* header end */
+
+.container {
+    width: 85%;
+    height: 1500px;
+    /* background-color: aqua; */
+    position: relative;
+    margin: 50px 80px;
+}
+
+.con_box1 {
+    width: 100%;
+    /* background-color: blue; */
+    position: absolute;
+}
+
+.container .con_box1 .grand_kurslar {
+    width: 50%;
+    /* background-color: yellow; */
+    position: absolute;
+    display: inline-block;
+}
+
+.container .con_box1 .grand_kurslar .text{
+    width: 550px;
+    background-color: yellowgreen;
+}
+.container .con_box1 .grand_kurslar .text h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #18216d;
+    /* font-family: san-serif; */
+    padding: 30px 0;
+}
+
+.container .con_box1 .grand_kurslar .text p {
+    font-size: 20px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+.container .con_box1 .grand_kurslar .cbutton button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #18216d;
+    color: white;
+}
+
+.container .con_box1 .grand_kurslar_img {
+    width: 50%;
+    background-image: url('../media/developer.svg');
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+    
+}

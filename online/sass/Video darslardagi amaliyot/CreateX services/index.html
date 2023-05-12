@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Websites with sass</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- main Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="navigation">
+          <div class="logo">
+            <a href="#">
+              <img src="./assets/img/logo.svg" alt="" />
+            </a>
+          </div>
+
+          <!-- <label class="hidden_mode" for="check"></label> -->
+          <input type="checkbox" style="display: none" id="check" />
+          <div class="menu_active">
+            <div class="close">
+              <label for="check"><i class="fas fa-times"></i> </label>
+            </div>
+
+            <div class="links_container">
+              <ul class="lists_item">
+                <li>
+                  <a href="#"> About Us </a>
+                </li>
+                <li>
+                  <a href="#" class="active"> Services </a>
+                </li>
+                <li>
+                  <a href="#"> Work </a>
+                </li>
+                <li>
+                  <a href="#"> News </a>
+                </li>
+                <li>
+                  <a href="#"> Contacts </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="call">
+              <div class="call_content">
+                <div class="call_img">
+                  <img src="./assets/icons/phone_icons.svg" alt="" />
+                </div>
+                <div class="call_text">
+                  <p>Call us</p>
+                  <a href="tel:+(405) 555-0128">(405) 555-0128</a>
+                </div>
+              </div>
+              <div class="call_content">
+                <div class="call_img">
+                  <img src="./assets/icons/chat.svg" alt="" />
+                </div>
+                <div class="call_text">
+                  <p>Talk to us</p>
+                  <a href="mailto:hello@createx.com">hello@createx.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-bars">
+            <label for="check">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="arrow">
+      <a href="#">tepaga</a>
+    </div>
+
+    <!-- showcase section -->
+    <section class="showcase">
+      <div class="container">
+        <div class="conetent">
+          <h1>SERVICES</h1>
+          <p>
+            If you are looking for a full-service construction company, look
+            to Createx Construction Bureau. We are doing our best
+            to be a partner for all of your construction needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- cart section -->
+    <section class="cart-container">
+      <div class="container">
+        <div class="main_cart">
+          <div class="cart_item">
+            <div class="cart_img">
+              <img src="./assets/img/cart_one.svg" alt="" />
+            </div>
+            <div class="cart_content">
+              <h2>Construction</h2>
+              <p>
+                Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius
+                consectetur vulputate arcu, scelerisque nisi, nibh. Enim semper
+                id sodales ultricies sed ut ut augue. Mattis habitant venenatis,
+                gravida posuere massa ac interdum. Eget aliquam dignissim ut
+                vestibulum.
+              </p>
+              <a href="#" class="btn_cart"> Learn more </a>
+            </div>
+          </div>
+
+          <div class="cart_item">
+            <div class="cart_content">
+              <h2>Project Development</h2>
+              <p>
+                Volutpat tellus mauris sit sit. Posuere ut sit vestibulum amet
+                viverra in. Est nulla lectus purus tincidunt massa tortor.
+                Hendrerit vulputate elementum blandit massa vitae amet felis
+                eget.
+              </p>
+              <a href="#" class="btn_cart"> Learn more </a>
+            </div>
+
+            <div class="cart_img">
+              <img src="./assets/img/cart_two.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="cart_item">
+            <div class="cart_img">
+              <img src="./assets/img/cart_three.svg" alt="" />
+            </div>
+            <div class="cart_content">
+              <h2>Interior Design</h2>
+              <p>
+                Eleifend orci massa et facilisis orci feugiat ac. Congue in ut
+                lacus, turpis accumsan gravida. Aliquet mattis dignissim massa
+                sociis a, id bibendum. Egestas lorem eros, mi cras amet, vel
+                eget molestie. Turpis enim arcu, amet donec massa pellentesque
+                nulla duis. Arcu dictum metus sed purus senectus faucibus eget
+                elementum pretium.
+              </p>
+              <a href="#" class="btn_cart"> Learn more </a>
+            </div>
+          </div>
+
+          <div class="cart_item">
+            <div class="cart_content">
+              <h2>Repairs</h2>
+              <p>
+                Facilisis cursus feugiat sit pulvinar amet. Ac facilisi dictum
+                commodo, tortor gravida pretium, orci. Nunc sit sollicitudin id
+                egestas mattis. Turpis viverra nec urna ultrices urna.
+              </p>
+              <a href="#" class="btn_cart"> Learn more </a>
+            </div>
+
+            <div class="cart_img">
+              <img src="./assets/img/cart_four.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="form">
+      <div class="container">
+        <div class="form__wrapper">
+          <div class="hidden_div"></div>
+          <form action="#">
+            <h2 class="form__title">A quick way to discuss details</h2>
+            <div class="form__insede">
+              <label for="name">Name*</label>
+              <input
+                type="text"
+                placeholder="Your name"
+                id="name"
+                name="name"
+              />
+            </div>
+            <div class="form__insede">
+              <label for="phone">Phone*</label>
+              <input
+                type="number"
+                placeholder="Your phone number"
+                id="phone"
+                name="phone"
+              />
+            </div>
+            <div class="form__insede">
+              <label for="name">Email*</label>
+              <input
+                type="email"
+                placeholder="Your working email"
+                id="name"
+                name="name"
+              />
+            </div>
+            <div class="form__insede">
+              <label for="message">Message**</label>
+              <textarea id="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="form_insede">
+              <input type="checkbox" id="checkbox_btn" />
+              <label for="checkbox_btn">
+                <b
+                  >I agree to receive communications from Createx Construction
+                  Bureau.
+                </b>
+              </label>
+            </div>
+            <div class="form_btn">
+              <button>send request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer__content">
+            <div class="footer__brends">
+              <div class="logo">
+                <a href="#">
+                  <img src="./assets/img/footer_logo.svg" alt="" />
+                </a>
+              </div>
+              <div class="footer__icons">
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__texts">
+              <p>
+                Createx Construction Bureau has been successfully operating
+                in the USA construction market since 2000. We are proud to offer
+                you quality construction and exemplary service. Our mission is
+                to set the highest standards for construction sphere.
+              </p>
+            </div>
+          </div>
+
+          <div class="footer__form__content">
+            <h3>Let’s stay in touch</h3>
+            <form action="#">
+              <div class="footer_form_content_insede">
+                <input type="text" placeholder="Your email address" />
+                <a href="#">subscribe</a>
+              </div>
+              <p>
+                *Subscribe to our newsletter to receive communications and early
+                updates from Createx Construction Bureau.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__links_container">
+          <ul>
+            <h3>HEAD OFFICE</h3>
+            <li>
+              <b>Address:</b>
+              <a href="#">8502 Preston Rd. Inglewood, New York</a>
+            </li>
+
+            <li>
+              <b>Call:</b>
+              <a href="tel:+(405) 555-0128">(405) 555-0128</a>
+            </li>
+
+            <li>
+              <b>Email:</b>
+              <a href="mailto:hello@createx.com">hello@createx.com</a>
+            </li>
+          </ul>
+          <ul>
+            <h3>WHO WE ARE</h3>
+            <li>About Us</li>
+            <li>Available Positions</li>
+            <li>Contacts</li>
+          </ul>
+          <ul>
+            <h3>OUR EXPERIENCE</h3>
+            <li>Services</li>
+            <li>Work</li>
+            <li>News</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

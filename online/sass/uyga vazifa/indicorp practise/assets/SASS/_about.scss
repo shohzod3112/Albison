@@ -1,0 +1,44 @@
+/* about us section */ 
+@import "./variable";
+#about{
+    width:100%;
+    padding: 160px 0;
+    .about-cards{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+        @media(max-width:1270px){
+            justify-content: center;
+        }
+        .about-card{
+            background-color: #fff;
+            width: 230px;
+            padding: 30px 40px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            align-items: center;
+            &:hover{
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            }
+            h2{
+                font-size: 3rem;
+                color:$mainTextColor;
+                font-weight: 700;
+            }
+            p{
+                color: $secondaryTextColor;
+                font-weight: 500;
+            }
+            img{
+                width: 50px;
+            }
+        }
+    }
+    @media(max-width:1000px){
+        padding: 50px 0;
+    }
+}

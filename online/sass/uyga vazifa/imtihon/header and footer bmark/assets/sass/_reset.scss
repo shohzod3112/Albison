@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+@mixin tugma(){
+    border-radius: 0.4rem;
+    padding: 0.6rem 1.3rem;
+    border: 1px solid rgba(130, 125, 125, 0.368);
+    color: black;
+    &:hover{
+        color: white;
+        font-size: 1rem;
+        background-color: $primarycolor;
+    }
+}

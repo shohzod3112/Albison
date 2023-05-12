@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* x o'qida boshqaruv uchun justify-content: ishlatiladi. Agar direction 
+
+    justify-content: start
+    justify-content: end;
+    justify-content: flex-start;
+    justify-content: center
+    justify-content: flex-end
+
+    Elentlarni ketma-ket joylashtirishda flexni 3 ta qiymati bor.
+    justify-content: space-around -> har bir elementni chap va o'ng tomonidan teng joy tashlaydi. 
+    Ikkita elementni orasida margin-left+margin-right hosil bo'ladi.
+    justify-content: space-evenly -> har bir elementni chap va o'ng tomonidan teng joy tashlaydi.
+    Ikkita elementni orasida margin-collapsing bo'ladi.
+    justify-content: space-between -> Birinchi element chapga yopishadi, 
+    oxirgi element o'ngga yopishadi va qolgan elementlar orasida teng joy tashlab beradi.
+    
+    
+    align-items -> y o'qi bo'yicha boshqaruv uchun parentda ishlatiladi.
+    default holati align-items: stretch;
+    align-items: flex-end; yoki (end) -> bottomdan joylashtiradi
+    align-items: flex-start;(start) -> topdan joylashtiradi
+    align-items: center; -> vertikaliga o'rtadan joylashtiradi
+
+    align-self ham xuddi align-items bilan bir xil vazifa bajaradi, farqi elementni o'ziga beriladi.
+    flex-direction -> flex yo'nalishi qanday bo'lishi bildiradi.
+    default qiymati row
+    Yo'nalishni teskari tartiblash uchun flex-direction: rowreverse; va flex-direction: column-reverse; ishlatiladi.
+
+    flex-basis -> max-width ga o'xshab ishlaydi. default qiymati auto (element uzunligiga teng uzunlikni egallaydi.)
+
+    flex-grow -> kengayishini boshqarish uchun ishlatiladi, 0 va 1 qiymat oladi. default holatda 0 turadi.
+    Bu degani kengayishiga ruxsat yoq. Bir kengayishiga ruxsat bor degan ma'noni bildiradi va bo'sh joy qancha bo'lsa shuncha kengayadi.
+
+    flex-shrink -> Kichrayishini boshqarish uchun ishlatiladi, 0 va 1 qiymat oladi. default holatda 1 turadi.
+    Bu degani kichrayib ketaveradi. Nol beradigan bo'lsak kichrayishiga ruxsat yoq degan ma'noni bildiradi va o'zining qiymati qancha bo'lsa shundan kichraymaydi.
+    
+    gap -> marginga o'xshab ishlaydi. Faqat gap boshi va oxiridan joy tashlamaydi.
+    row-gap -> Qatorlar orasiga joy tashlash uchun.
+    column-gap -> Ustunlar orasiga joy tashlash uchun
+    gap: 20px 40px; -> Birinchi qiymat qator, 2-qiymat ustunlar orasidagi joy.
+
+
+    flex-wrap -> sig'may qolgan elementni pastki qatordan chiqarish uchun ishlatiladi. default qiymati nowrap;
+    */
+
+.cards {
+    background-color: lightblue;
+    border: 7px solid red;
+    margin: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    gap: 20px 40px;
+    /* row-gap: 40px; */
+    /* column-gap: 50px; */
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    background-color: lightgrey;
+    border: 5px solid blue;
+}
+
+.card1 {
+    background-color: green;
+    /* order: 3; */
+    /* flex-basis: 500px; */
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+}
+
+/* .card2 {
+    background-color: red;
+    /* align-self: start; 
+    order: 1;
+}
+
+.card3 {
+    background-color: pink;
+    order: 2;
+}
+
+.card4 {
+    background-color: yellow;
+    order: 4;
+} */

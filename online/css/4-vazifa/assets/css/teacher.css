@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+}
+
+.timage {
+    /* background-color: red; */
+    height: 300px;
+    background-image: url('../media/teacher.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.iot {
+    background-color: rgba(255, 255, 255, 0.486);
+    width: 750px;
+    height: 80px;
+    position: absolute;
+    left: 270px;
+    top: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(183, 12, 12);
+}
+.iot h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+.tcards {
+    /* background-color: yellowgreen; */
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 1600px;
+}
+.tcards1 {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 490px;
+    height: 430px;
+    border: 1px solid rgb(189, 203, 189);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    position: relative;
+    top: -80px;
+    /* z-index: 1; */
+}
+
+.tcards2 {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 490px;
+    height: 430px;
+    border: 1px solid rgb(189, 203, 189);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    position: relative;
+    top: -80px;
+    /* z-index: 1; */
+}
+
+.tcards3 {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 490px;
+    height: 430px;
+    border: 1px solid rgb(189, 203, 189);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    position: relative;
+    top: -80px;
+    /* z-index: 1; */
+}
+
+.tcards4 {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 490px;
+    height: 430px;
+    border: 1px solid rgb(189, 203, 189);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    position: relative;
+    top: -80px;
+    /* z-index: 1; */
+}
+.tcards5 {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 490px;
+    height: 430px;
+    border: 1px solid rgb(189, 203, 189);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 390px;
+    position: relative;
+    top: -80px;
+    /* z-index: 1; */
+}
+
+
+
+.tnt {
+    /* background-color: yellowgreen; */
+    background-color: rgba(243, 231, 231, 0.283);
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    border: 1px solid rgba(209, 187, 187, 0.377);
+}
+.tcardimg1 {
+    height: 140px;
+    background-image: url('../media/home-cart-1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 190px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.tcardtext1 {
+    /* background-color: blueviolet; */
+    /* display: inline-block; */
+    position: absolute;
+    height: 20px;
+    padding: 0 20px;
+    width: 100%;
+    top: 120px;
+    right: 5px;
+    text-align: center;
+}
+.tcardtext1 p {
+    text-align: center;
+    font-size: 20px;
+    /* padding: 10px; */
+}
+.phd {
+    margin-top: 180px;
+    text-align: center;
+    padding: 20px 30px;
+}
+.phd p {
+    line-height: 20px;
+}
+#phd {
+    margin-bottom: 20px;
+}
+
+.nomer {
+    background-color: rgba(231, 217, 217, 0.283);
+    position: absolute;
+    padding: 20px;
+    width: 455px;
+    left: 15px;
+    text-align: center;
+    /* border: 1px dashed rebeccapurple; */
+}

@@ -1,0 +1,61 @@
+h1 {
+    color: red;
+}
+#div0 {
+    background-color: yellow;
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/79cb3d16-8495-4782-acab-dd0158259641/bvlatuR/std/2560x1394/Model-3-Interior-Carousel-2-Slide-1-Desktop-LHD');
+    background-size: 300px 200px;
+    /* background-repeat background-size: contain; bo'lganda kerak. background-size: cover; bo'lganda kerak emas*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#div1 {
+    background-color: yellow;
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/79cb3d16-8495-4782-acab-dd0158259641/bvlatuR/std/2560x1394/Model-3-Interior-Carousel-2-Slide-1-Desktop-LHD');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+#div2 {
+    background-color: yellow;
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/79cb3d16-8495-4782-acab-dd0158259641/bvlatuR/std/2560x1394/Model-3-Interior-Carousel-2-Slide-1-Desktop-LHD');
+    background-size: 300px 200px;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+}
+
+#div3 {
+    background-color: aqua;
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(to top left, red, blue, green, yellow);
+    /* background-size: contain; */
+}
+
+#div4 {
+    background-color: aqua;
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('../media/1569699071_kuz-_-kuz-fasli-_-autumn-_-osen-_-osen-_-kuz-_-kuz-fasli-24.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#div5 {
+    background-color: rgb(255, 247, 0);
+    color: red;
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.502), rgba(0, 128, 0, 0.366), rgba(0, 0, 255, 0.514)), url('../media/1569699071_kuz-_-kuz-fasli-_-autumn-_-osen-_-osen-_-kuz-_-kuz-fasli-24.jpg');
+}

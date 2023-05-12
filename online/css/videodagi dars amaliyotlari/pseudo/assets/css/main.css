@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 40px;
+    margin: 50px;
+    border: 2px solid red;
+    position: relative;
+}
+
+/* pseudo classes */
+
+/* mishka element ustiga kelgandagi holat */
+.box:hover {
+    background-color: green;
+    color: white;
+    /* width: 300px; */
+}
+
+input {
+    background-color: rgb(72, 45, 160);
+    border: none;
+}
+
+/* elementga focus o'rnatilgandagi holat */
+ input:focus {
+    background-color: yellow;
+    border: none;
+    outline: none;
+ }
+
+/* mishka bosib turilgandagi ya'ni active bo'lgandagi holat */
+ input:active {
+    background-color: red;
+ }
+
+/* pseudo classlar bilan pseudo elementlarni farqi pseudo classlar qanaqadur shartlar bajarilganda ishlaydi. */
+
+/* pseudo elementlar start */
+
+ul li {
+    color: red;
+}
+
+li::marker {
+    color: yellow;
+}
+
+li::selection {
+    background-color: aqua;
+}
+
+/* ::before odatda positionla bilan ishlatiladi. content berilishi shart */
+
+.box::before {
+    content: '';
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    bottom: -30px;
+    left: 20%;
+    right: 20%;
+}
+
+.box::after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: -30px;
+    background-color: green;
+    right: 20%;
+    left: 20%;
+}
+
+/* amaliyot for before after */
+
+.amaliyot {
+    width: 80vw;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+.amaliyot::before {
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: 0;
+    background-color: #0000001F;
+    right: 0; 
+    left: 0;
+
+}
+
+.amaliyot::after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: #0000001F;
+    right: 0; 
+    left: 0;
+}
+
+.amaliyot .information {
+    width: 30%;
+    position: relative;
+    /* background-color: yellow; */
+    margin: 2% 1%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.amaliyot .information h5 {
+    text-transform: uppercase;
+}
+
+.amaliyot .information:nth-child(2)::before {
+    content: '';
+    width: 1px;
+    height: 120%;
+    position: absolute;
+    background-color: #0000001F;
+    left: -8%;
+    top: -10%;
+}
+
+.amaliyot .information:nth-child(2)::after {
+    content: '';
+    width: 1px;
+    height: 120%;
+    position: absolute;
+    background-color: #0000001F;
+    top: -10%;
+    right: -5%;
+    bottom: 0;
+}
