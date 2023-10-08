@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 10</title>
+    <style>
+
+        .forSelect{
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #reg{
+            height: 100%;
+            font-size: 2rem;  
+        }
+
+        .cards{
+            display: grid; 
+            padding: 2rem;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1rem;
+        }
+        
+        .cards .card p{
+            background-color: red;
+            border-radius: 1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="forSelect">
+        <select name="vil" id="reg">
+            <option class="vil" value="Toshkent">Toshkent</option>
+            <option class="vil" value="Qarshi">Qarshi</option>
+            <option class="vil" value="Sirdaryo">Sirdaryo</option>
+            <option class="vil" value="Jizzax">Jizzax</option>
+            <option class="vil" value="Samarqand">Samarqand</option>
+            <option class="vil" value="Surxondaryo">Surxondaryo</option>
+            <option class="vil" value="Buxoro">Buxoro</option>
+            <option class="vil" value="Namangan">Namangan</option>
+            <option class="vil" value="Farg'ona">Farg'ona</option>
+            <option class="vil" value="Andijon">Andijon</option>
+            <option class="vil" value="Navoiy">Navoiy</option>
+            <option class="vil" value="Xorazm">Xorazm</option>
+            <option class="vil" value="Qoraqalpoq">Qoraqalpoq</option>
+          </select>
+    </div>
+
+      <div class="cards">
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Bomdod kirishi</p>
+            <p class="namozTime1">03:45</p>
+        </div>
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Quyosh chiqishi</p>
+            <p class="namozTime2">05:20</p>
+        </div>
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Peshin</p>
+            <p class="namozTime3">12:29</p>
+        </div>
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Asr</p>
+            <p class="namozTime4">17:31</p>
+        </div>
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Shom</p>
+            <p class="namozTime5">19:43</p>
+        </div>
+        <div class="card">
+            <img src="./1.jpg" alt="1.jpg">
+            <p class="namozName">Xufton</p>
+            <p class="namozTime6">21:08</p>
+        </div>
+      </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

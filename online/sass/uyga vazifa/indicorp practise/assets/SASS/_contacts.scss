@@ -1,0 +1,85 @@
+/* contacts section */ 
+@import "./variable";
+#contacts{
+    width: 100%;
+    .contact-cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+        .contact-card{
+            width: 330px;
+            height:332px;    
+            padding: 50px 40px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            svg path{
+                fill:$lightBlue;
+            }
+            h2,p{
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .contact-btn{
+                width: 70%;
+                margin: auto;
+                padding: 12px;
+                border: 1px solid $myGold;
+                border-radius: 5px;
+                font-weight: 600;
+                color: $myGold;
+                cursor: pointer;
+            }
+            &:hover{
+                background-color: $mainTextColor;
+                h2,p{
+                    color: #fff;
+                }
+                .contact-btn{
+                    border-color: #fff;
+                    color: #fff;
+                }
+                svg path{
+                    fill:#fff;
+                }
+            } 
+            @media(max-width:450px){
+                width: 280px;
+                height: 310px;
+            }
+        }
+    }
+
+    .form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
+        input, textarea, select{
+            all: unset;
+        }
+        input,select, textarea{
+            border: 1px solid $secondaryTextColor;
+            border-radius: 5px;
+            padding: 10px 12px;
+        }
+        .submit-btn{
+            all: unset;
+            cursor: pointer;
+            width: 120px;
+            margin: auto;
+            padding: 12px;
+            color: #fff;
+            border-radius: 5px;
+            background-color: $myGold;
+            text-align: center;
+            &:hover{
+                background-color: $mainTextColor;
+            }
+        }
+    }
+
+}

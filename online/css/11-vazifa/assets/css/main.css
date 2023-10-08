@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news {
+    width: 100%;
+    margin: 100px auto;
+    background-color: #F08080;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.text {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+@keyframes border {
+    from
+    {
+        border-radius: 0;
+        box-shadow: 0 0 1px black;
+    }
+    to
+    {
+        border-radius: 30px 0 30px 0;
+        box-shadow: 0 10px 5px black;
+    }
+}
+
+.spin {
+    width: 100%;
+    margin: 100px auto;
+    background-color: #FFFF00;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 0;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.scale {
+    width: 100%;
+    margin: 100px auto;
+    background-color: #ADD8E6;
+    padding: 100px;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.skew {
+    width: 100%;
+    margin: 50px auto;
+    background-color: #D3D3D3;
+    padding: 70px;
+    animation-name: skew;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes skew {
+    from {
+        transform: skewX(-30deg);
+    }
+    to {
+        transform: skewX(30deg);
+    }
+}
+
+.translate {
+    width: 23%;
+    margin: 100px auto;
+    margin-bottom: 200px;
+    background-color: #D3D3D3;
+    padding: 10px 50px;
+    padding-bottom: 150px;
+    animation-name: translate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes translate {
+    from {
+        transform: translate(0 0);
+    }
+    to {
+        transform: translate(100px, 100px);
+        box-shadow: -4px -4px 0 black, -8px -8px 0 rgba(53, 52, 52, 0.577), -12px -12px 0 #D3D3D3;
+    }
+}

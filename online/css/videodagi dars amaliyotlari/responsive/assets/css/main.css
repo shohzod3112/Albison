@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.cards {
+    background-color: lightblue;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: green;
+    padding: 20px;
+    border: 2px solid red;
+    /* width: 20%; */
+}
+/* 
+@media (max-width:750px) {
+    .cards {
+        gap: 2rem;
+        background-color: red;
+    }
+    .card {
+        background-color: yellow;
+        width: 45%;
+    }
+}
+
+@media (max-width:450px) {
+    .card {
+        width: 100%;
+    }
+} */
+
+@media (max-width: 750px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .cards {
+       grid-template-columns: 1fr;
+    }
+}
+
+@

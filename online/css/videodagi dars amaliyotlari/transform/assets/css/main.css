@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border-color: #ccc;
+    border: 4px solid red;
+    /* transform-origin: top left; -> Aylanish nuqtasini belgilab beradi */
+    transform-origin: end left;
+    /* transform-origin: 100px 200px; */
+    /* transform-origin: 100% 100%; */
+}
+/* transform: translate(100px, 200px); - > margindan farqi atrofdagi boshqa narsalaga ta'sir qilmaydi*/
+
+.transform {
+    /* transform: translate(100px, 200px); */
+    /* transform: translateX(200px); */
+    /* transform: translateY(100px); */
+    /* transition: 2s; animatsiya qancha vaqtda bajarilish vaqtini bildiradi */
+    /* skew -> Necha gradusga qiyshaytirishni bildiradi */
+    /* transform: skew(30deg); */
+    /* transform: skewY(15deg); */
+
+}
+
+.transform:hover {
+    /* transform: scale(1.2); */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(0.5); */
+    /* transform: skew(20deg, 20deg);  */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(-20deg); */
+    box-shadow: 0px 50px 50px gray;
+    /* transform: rotate(360deg); */
+}

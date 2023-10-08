@@ -1,0 +1,131 @@
+/* reset code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container{
+    width:94%;
+    margin: auto;
+}
+
+/* header start */
+
+#header{
+    padding: 14px 0;
+    background-color: rgba(0, 0, 0, 0.698);
+}
+
+
+.logo{
+    display: inline-block;
+    width: 10%;
+    color: #fff;
+}
+.menu-list{
+    display: inline-block;
+    text-align: end;
+    vertical-align: middle;
+    width: 89%;
+}
+
+.menu-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu-list li a{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* showcase section start */
+
+#showcase{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/photo_2022-07-25_12-18-45.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#showcase h1{
+    position: absolute;
+    bottom: 100px;
+    font-size: 4rem;
+    color: #fff;
+    width: 40%;
+}
+
+/* projects setion start */
+
+#projects{
+    width: 100%;
+    padding: 20px 0;
+}
+.projects-header{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.line{
+    vertical-align: middle;
+    width: 160px;
+    height: 2px;
+    background-color: #000;
+    display: inline-block;
+}
+
+#projects .cards{
+    width: 100%;
+    text-align: center;
+}
+.cards .card{
+    vertical-align: middle;
+    display: inline-block;
+    width: 28%;
+    height: 400px;
+    margin: 10px;
+    background-color: #000;
+    position: relative;
+}
+
+.imageContent{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: red;
+    z-index: 9;
+}
+.imageContent img{
+    height: 100%;
+}
+.textContent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: #000;
+    z-index: 1;
+    font-size: 20px;
+    padding-top: 50%;
+}
+
+.card:hover .textContent{
+    z-index: 10;
+}

@@ -1,0 +1,15 @@
+.nav {
+  background-color: blue;
+}
+.nav ul {
+  background-color: green;
+}
+.nav ul li {
+  background-color: red;
+}
+.nav ul li:hover {
+  background-color: blueviolet;
+}
+.nav:hover {
+  background-color: gray;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box {
+    background-color: lightblue;
+    /* padding: 30px; */
+    /* border: 2px solid blue; */
+    /* margin: 20px; */
+    width: 100vw;
+    height: 100vw;
+}
+
+.card1 {
+    background-color: yellow;
+    /* width: 45%; */
+    /* height: 200px; */
+    font-size: 25px;
+}
+
+/* .card2 {
+    background-color: green;
+    /* width: 45vw;
+    /* height: 40vh; 
+}
+*/
+.card1 h1 {
+    /* font-size: 1.5em; */
+    font-size: 20px;
+    /* width: 4em;
+    height: 5em; 
+    background-color: red; */
+}
+
+.card1 h2{
+    font-size: 20px;
+}
+
+.card1 p{
+    font-size: 30px;
+}
+
+/* .card2 h1{
+    font-size: 50px;
+    width: 5rem;
+    background-color: blue;
+}  */

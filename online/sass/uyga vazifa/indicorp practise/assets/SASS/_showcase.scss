@@ -1,0 +1,80 @@
+/* showcase section*/
+@import "./variable";
+#showcase{
+    width: 100%;
+    // height: 80vh;
+    background-image: url(../images/opa.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    .showcase-main{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 60px 0 0 0;
+        h1{
+            font-size: 4rem;
+            color: $mainTextColor;
+        }
+        p{
+            color: $secondaryTextColor;
+        }
+        .btns{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            a{
+                padding: 10px 36px;
+                border: 1px solid $lightBlue;
+                border-radius: 20px;
+                color: $lightBlue;
+                font-weight: 500;
+                &:hover{
+                    background-color: $myGold;
+                    color: #fff;
+                    border-color:$myGold;
+                }
+            }
+            @media(max-width:1000px){
+                justify-content: center;
+            }
+        }
+        .showcase-cards{
+            width: 100%;
+            justify-content: center;
+            position: relative;
+            top: 120px;
+            gap: 20px;
+            display: flex;
+
+            .card{
+                width: 330px;
+                padding:20px;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                svg path{
+                    fill: $lightBlue;
+                }   
+                &:hover{
+                    background-color: $lightBlue;
+                    svg path{
+                        fill: #fff;
+                    }
+                    h2,p{
+                        color: #fff;
+                    }
+                }
+            }
+            @media(max-width:1000px){
+                position: static;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

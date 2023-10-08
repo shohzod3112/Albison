@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.forimage {
+    width: 100%;
+    background-image: url('../media/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+    /* background-color: yellowgreen; */
+}
+
+.container {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    /* background-color: #56597A; */
+    display: flex;
+    align-items: center;
+}
+
+.headerleft {
+    width: 50%;
+}
+
+h1 span {
+    color: #F087B1;
+}
+
+.headerright {
+    width: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60%;
+}
+
+.headerright ul {
+    font-size: 1.2rem;
+    display: grid;
+    padding: 10% 0;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 35%;
+}
+
+.headerright ul li a {
+    color: #AAAAAB;
+}
+
+.menu i {
+    font-size: 1.5rem;
+
+}
+/* #birinchi {
+    color: #56597A;
+} */
+
+
+/* Header section end */
+
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left h4 {
+    color: #F78CB6;
+    font-size: 1.5rem;
+}
+
+.left p {
+    color: #919299;
+    letter-spacing: 0.02em;
+}
+
+.left h2 {
+    color: #56597A;
+    font-size: 3rem;
+}
+
+.right {
+    width: 50%;
+    /* background-color: #320a1a; */
+}
+
+.right img {
+    width: 80%;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media section */
+
+@media (max-width: 950px)
+{
+    .headerright ul {
+        /* padding: 7% 0; */
+        /* gap: 20%; */
+        font-size: 1rem;
+    }
+    .right {
+        position: relative;
+        right: -10%;
+    }
+}
+
+@media (max-width: 800px)
+{
+    
+}

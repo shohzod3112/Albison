@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: #E5E5E5; */
+}
+
+.container {
+    width: 80%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 5%;
+    z-index: 1;
+}
+
+header .logo{
+    width: 40%;
+}
+
+header .headerright{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+header .headerright ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.headerright ul li{
+    font-size: 14px;
+    display: flex;
+}
+
+.headerright ul li a{
+    color: #6C6C6C;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerright ul li:nth-child(1) a:active {
+    color: red;
+}
+
+.headerright .savatcha{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.headerright .savatcha::before {
+    content: '';
+    width: 1px;
+    height: 190%;
+    position: absolute;
+    background-color: #EBEBEB;
+    left: -10px;
+    top: -10px;
+}
+
+/* Header section end */
+
+#showcase{
+    width: 100%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../media/background\ image.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase .showcaseleft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 10%;
+    padding-bottom: 10%;
+}
+
+.qizil {
+    display: inline-block;
+    color: #D77474;
+    font-size: 10px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 90px;
+    letter-spacing: 2px;
+}
+
+.qora {
+    width: 90%;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#showcase .showcaseleft img{
+    padding-bottom: 1%;
+}
+
+.unique {
+    width: 150%;
+    color: #6C6C6C;
+    font-family: 'Libre Franklin';
+    margin-bottom: 2%;
+}
+
+#showcase .showcaseright {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#showcase .showcaseright img{
+    width: 100%;
+}
+
+.buttonstyle {
+    padding: 2% 4%;
+    background-color: #AC1313;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.buttonstyle a{
+    color: white;
+    text-transform: uppercase;
+}
+
+/* showcase section end */
+
+#product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+
+#product .ptop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+#product .ptop .qora{
+    width: 100%;
+}
+
+#product .pmiddle{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    column-gap: 15%;
+    margin-top: 3%;
+}
+
+#product .pmiddle img{
+    width: 30%;
+}
+
+#product .pbottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+#product .pbottom .pbottomleft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.pbottom .pbottomleft p,
+.pbottom .pbottomright p
+{
+    width: 90%;
+}
+
+#product .pbottom .pbottomright{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.need {
+    font-size: 32px;
+    margin: 2% 0;
+}
+
+.vases {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.vases .gold {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gold .gvaza {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.gold .tekst{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 10%;
+}
+
+.gold .tekst p{
+    width: 80%;
+}
+
+.view {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+/* vases section end */
+
+#online{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.horizontal{
+    width: 100%;
+    height: 1px;
+    margin: 5% 0;
+    background-color: #EBEBEB;
+}
+
+#online h4{
+    margin-left: 45%;
+}
+
+#online h2{
+    margin-left: 40%;
+}
+
+.store {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.store .card{
+    width: 32%;
+}
+
+.store .card img{
+    width: 100%;
+}
+
+.card .decor h5{
+   color: #6C6C6C;
+   padding-top: 5%;
+}
+
+.card .decor h6{
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#online button {
+    padding: 1% 2%;
+    margin-left: 45%;
+}
+
+/* online section end */
+
+#shopping{
+    width: 100%;
+    background-image: url('../media/collection.svg');
+    background-size: cover;
+    background-position: center;
+    margin: 5% 0;
+    padding-left: 10%;
+}
+
+.shop{
+    width: 45%;
+    padding-bottom: 5%;
+}
+
+#shopping .shop h4{
+    font-weight: 100;
+    padding: 1% 0;
+}
+
+#shopping .shop h5{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 1%;
+}
+
+#shopping .shop p{
+    width: 60%;
+    color:#6C6C6C;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+
+#shopping .shop p span{
+    color: #AC1313;
+}
+
+/* shopping section end */
+
+#news{
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+#news .latest {
+    width: 100%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+#news .latest img:nth-of-type(1) {
+    width: 5%;
+    text-align: center;
+}
+
+#news .latest p{
+    color: #D77474;
+    text-align: center;
+    display: block;
+    padding: 2% 0;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 14px;
+}
+.latest h3{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.subscribe {
+    padding: 1% 0;
+}
+
+/* .subscribe form{
+
+} */
+
+.subscribe input{
+    width: 30%;
+    padding: 0.8% 0;
+    border: 1px solid #EBEBEB;
+    font-family: 'Lato';
+    padding-left: 3%;
+}
+
+.subscribe button{
+    width: 15%;
+    padding: 0.8% 0;
+    border: none;
+    font-family: 'Lato';
+    color: white;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.tochka{
+    width: 10px;
+    height: 10px;
+    background-color: #8534FF;
+    color: #8534FF;
+    display: inline-block;
+}
+
+#news p{
+    display: inline-block;
+    color: #A1A1A1;
+}
+
+/* news section end */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer img{
+    width: 5%;
+    margin-bottom: 1%;
+}
+
+footer .icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.icons .icon{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons .icon img{
+    width: 10%;
+}
+
+.icons .icon h6{
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 13px;
+    padding: 1% 0;
+}
+
+.icons .icon .unique{
+    padding: 4% 0;
+}
+.icons .icon .unique a{
+    color: #6C6C6C;
+}
+
+.footerbottom {
+    width: 100%;
+    padding: 2% 0;
+    background-color: #DBDBDB1A;
+}
+
+.footerbottom p{
+    color: #6C6C6C;
+}
+
+.footerbottom p span{
+    color: black;
+}
